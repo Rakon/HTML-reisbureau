@@ -1,0 +1,96 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+#container{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+}
+#body {
+	background-image: url('IMG/hawai.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+  }
+.a{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato';
+}
+.header {
+	width: 100%;
+	padding:60px 0;
+	text-align: center;
+	background: #33cccc;
+	color: #7A0BC0;
+	background-image: url('IMG/bloodspat2.jpg');
+}
+.btn-header {
+	font-size: 20px;
+	display: inline-block;
+	border: 1px solid #7858A6;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: 300;
+	margin-top: 30px; 
+}
+  
+.btn-header:hover {
+	background-color: #7858A6;
+	color: #7A0BC0;
+  } 
+#top{
+	padding: 15px;
+	text-align: center;
+	background: #f6fa00ad;
+	color: rgb(243, 9, 9);
+	font-size: 30px;
+	background-image: url('IMG/bloodspat.jpg');
+}
+.neonText {
+	color: #fff;
+	text-shadow:
+		0 0 7px #fff,
+		0 0 10px #fff,
+		0 0 21px #fff,
+		0 0 42px #5271ff,
+		0 0 82px #5271ff,
+		0 0 92px #5271ff,
+		0 0 102px #5271ff,
+		0 0 151px #5271ff;
+  }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+	border: 2px solid red;
+}
+#frame1{
+	padding:15px;
+	background-color:#371B58;
+	border:1px black solid ;
+}
+#frame2{
+	padding:15px;
+	background-color:#4C3575;
+	border:1px black solid ;
+}
+#frame3{
+	padding:15px;
+	background-color:#5B4B8A;
+	border:1px black solid ;
+}
+#frame4{
+	padding:15px;
+	background-color:#7858A6;
+	border:1px black solid ;
+}
+#frame5{
+	width: 193%;
+	padding:15px;
+	background-color:rgb(226, 76, 206);
+	border:1px black solid ;
+	
+}
